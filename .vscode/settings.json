@@ -1,0 +1,20 @@
+{
+  "liveServer.settings.port": 5503,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "stylelint.configOverrides": {
+    "ignoreFiles": [
+      // All normal .cjs files
+      "**/*.cjs",
+      // .cjs files starting with a dot eg. .eslintrc.cjs
+      "**/.*.cjs"
+    ]
+  }
+}
